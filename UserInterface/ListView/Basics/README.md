@@ -1,22 +1,18 @@
 ---
-name: 'Xamarin.Forms ListView Sample: The Basics'
-description: 'Sample code associated with the ListView Docs: This sample demonstrates basic use of ListView populated with just an array of strings, using the default view.'
-topic: sample
+name: 'Xamarin.Forms - Basic ListView Sample'
+description: 'Sample code associated with the ListView Docs: demonstrates basic use of ListView populated with just an array of strings'
+page_type: sample
 languages:
 - csharp
 products:
 - xamarin
-technologies:
-- xamarin-forms
 urlFragment: userinterface-listview-basics
 ---
-Xamarin.Forms ListView Sample: The Basics
-===========================
+# Xamarin.Forms ListView Sample: The Basics
 
-Sample code associated with the [ListView Docs](http://developer.xamarin.com/guides/cross-platform/xamarin-forms/user-interface/list_view/):
+Sample code associated with the [ListView Docs](https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/listview/).
 
 This sample demonstrates basic use of ListView populated with just an array of strings, using the default view.
 
-Author
-------
-Nathan Castle
+![Screenshot of Basic ListView Demo on iOS and Android](Screenshots/basic-listview-demo.png)
+

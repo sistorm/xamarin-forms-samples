@@ -1,23 +1,16 @@
 ---
-name: Working with Triggers
-description: This sample relates to the Working with Triggers in Xamarin.Forms 1.3 doc.
-topic: sample
+name: Xamarin.Forms - Working with Triggers
+description: Use triggers to validate user input and provide visible feedback in Xamarin.Forms
+page_type: sample
 languages:
 - csharp
 products:
 - xamarin
-technologies:
-- xamarin-forms
 urlFragment: workingwithtriggers
 ---
-Working with Triggers
-==============
+# Working with triggers in Xamarin.Forms
 
-This sample relates to the [Working with Triggers in Xamarin.Forms 1.3](http://developer.xamarin.com/guides/cross-platform/xamarin-forms/working-with/triggers) doc.
+This sample relates to the [Working with Triggers in Xamarin.Forms](https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/triggers) doc.
 
+![iOS screenshot of trigger-driving input validation](Screenshots/01-small.png)
 
-
-Author
-------
-
-Craig Dunn

@@ -1,17 +1,14 @@
 ---
-name: TodoREST
-description: "This sample demonstrates a Todo list application where the data is stored and accessed from a RESTful web service. The web service code is in the TodoAPI project. The app functionality is: - View a list of tasks. - Add, edit, and delete tasks. - Set a task's status to 'done'. In all cases the tasks are stored in an in-memory collection that's accessed through a RESTful web service."
-topic: sample
+name: Xamarin.Forms - TodoREST
+description: This sample demonstrates a Todo list application where the data is stored and accessed from a RESTful web service.
+page_type: sample
 languages:
 - csharp
 products:
 - xamarin
-technologies:
-- xamarin-forms
 urlFragment: webservices-todorest
 ---
-TodoREST
-========
+# TodoREST
 
 This sample demonstrates a Todo list application where the data is stored and accessed from a RESTful web service. The web service code is in the TodoAPI project.
 
@@ -23,9 +20,6 @@ The app functionality is:
 
 In all cases the tasks are stored in an in-memory collection that's accessed through a RESTful web service.
 
-For more information about the sample see [Consuming a RESTful Web Service](http://developer.xamarin.com/guides/cross-platform/xamarin-forms/web-services/consuming/rest/).
+For more information about the sample see [Consuming a RESTful Web Service](https://docs.microsoft.com/xamarin/xamarin-forms/data-cloud/web-services/rest).
 
-Author
-------
-
-David Britch
+![TodoREST application screenshot](Screenshots/01All.png "TodoREST application screenshot")

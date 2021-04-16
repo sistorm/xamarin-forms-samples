@@ -1,23 +1,16 @@
 ---
-name: FormsGallery
-description: This program displays all the views, cells, layouts, and pages available in Xamarin.Forms, one per page.
-topic: sample
+name: Xamarin.Forms - FormsGallery
+description: This program displays all the views, cells, layouts, and pages available in Xamarin.Forms.
+page_type: sample
 languages:
 - csharp
 products:
 - xamarin
-technologies:
-- xamarin-forms
 urlFragment: formsgallery
 ---
-FormsGallery
-============
+# FormsGallery
 
-This program displays all the views, cells, layouts, and pages available in Xamarin.Forms, 
-one per page.
+This program displays all the views, cells, layouts, and pages available in Xamarin.Forms, one per page.
 
+![FormsGallery application screenshot](Screenshots/Button.png "FormsGallery application screenshot")
 
-Author
-------
-
-Charles Petzold

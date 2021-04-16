@@ -1,11 +1,15 @@
-﻿using Xamarin.Forms;
+﻿using Xamarin.Essentials;
+using Xamarin.Forms;
 
 namespace TodoREST
 {
-	public static class Constants
-	{
-        // The iOS simulator can connect to localhost. However, Android emulators must use the 10.0.2.2 special alias to your host loopback interface.
-        public static string BaseAddress = Device.RuntimePlatform == Device.Android ? "https://10.0.2.2:5001" : "https://localhost:5001";
-        public static string TodoItemsUrl = BaseAddress + "/api/todoitems/{0}";
+    public static class Constants
+    {
+        // URL of REST service
+        //public static string RestUrl = "https://YOURPROJECT.azurewebsites.net:8081/api/todoitems/{0}";
+
+        // URL of REST service (Android does not use localhost)
+        // Use http cleartext for local deployment. Change to https for production
+        public static string RestUrl = DeviceInfo.Platform == DevicePlatform.Android ? "http://10.0.2.2:5000/api/todoitems/{0}" : "http://localhost:5000/api/todoitems/{0}";
     }
 }

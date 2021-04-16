@@ -95,7 +95,6 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -156,9 +155,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms">
-      <Version>4.1.0.555618</Version>
-    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\bear.png" />
@@ -187,5 +185,6 @@
     <BundleResource Include="Resources\3bar%402x.png" />
     <BundleResource Include="Resources\back.png" />
     <BundleResource Include="Resources\back%402x.png" />
+    <BundleResource Include="Resources\photo.jpg" />
   </ItemGroup>
 </Project>

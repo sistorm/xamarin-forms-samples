@@ -1,23 +1,17 @@
 ---
-name: ContentPage Custom Renderer
-description: This sample demonstrates a custom renderer for a ContentPage, enabling developers to override the default native rendering with their own platform-specific customization.
-topic: sample
+name: Xamarin.Forms - ContentPage Custom Renderer
+description: "Demonstrates a custom renderer for a ContentPage, enabling developers to override the default native rendering #customrenderer"
+page_type: sample
 languages:
 - csharp
 products:
 - xamarin
-technologies:
-- xamarin-forms
 urlFragment: customrenderers-contentpage
 ---
-ContentPage Custom Renderer
-===========================
+# ContentPage Custom Renderer
 
 This sample demonstrates a custom renderer for a `ContentPage`, enabling developers to override the default native rendering with their own platform-specific customization.
 
-For more information about this sample see [Customizing a ContentPage](http://developer.xamarin.com/guides/cross-platform/xamarin-forms/custom-renderer/contentpage/).
+For more information about this sample see [Customizing a ContentPage](https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/custom-renderer/contentpage).
 
-Author
-------
-
-David Britch
+![ContentPage Custom Renderer application screenshot](Screenshots/01All.png "ContentPage Custom Renderer application screenshot")
